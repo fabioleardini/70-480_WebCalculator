@@ -3,7 +3,7 @@
 <head>
     <title>Web Calculator</title>
     <link href="Content/default.css" rel="stylesheet" />
-    <script src="Scripts/jquery-3.1.1.js"></script>
+    <script src="Scripts/jquery-1.8.2.js"></script>
     <script type="text/javascript" src="Scripts/CalculatorLibrary.js"></script>
 </head>
 <body>
@@ -22,7 +22,8 @@
                 <table>
                     <tr>
                         <td colspan="4">
-                            <input id="txtResult" type="text" readonly="readonly" />
+                            <input id="txtResult" type="text"
+                                readonly="readonly" />
                         </td>
                     </tr>
                     <tr>
@@ -42,14 +43,11 @@
                     </tr>
                     <tr>
                         <td>
-                            <button id="btnNumber7">7</button>
-                        </td>
+                            <button id="btnNumber7">7</button></td>
                         <td>
-                            <button id="btnNumber8">8</button>
-                        </td>
+                            <button id="btnNumber8">8</button></td>
                         <td>
-                            <button id="btnNumber9">9</button>
-                        </td>
+                            <button id="btnNumber9">9</button></td>
                         <td>
                             <button id="btnPlus">+</button>
                         </td>
@@ -103,7 +101,7 @@
         </footer>
     </div>
     <script type="text/javascript">
-        $(document).ready(function() {
+        $(document).ready(function () {
             calculatorNamespace.initialize();
         });
     </script>
