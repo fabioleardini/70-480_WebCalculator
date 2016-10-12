@@ -20,6 +20,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -84,6 +85,7 @@
     <Content Include="CalculatorTests.html" />
     <Content Include="Content\default.css" />
     <Content Include="Content\qunit.css" />
+    <Content Include="ContactUs.html" />
     <Content Include="default.html" />
     <Content Include="Images\ContosoLogo.png" />
     <Content Include="Scripts\CalculatorLibrary.js" />
